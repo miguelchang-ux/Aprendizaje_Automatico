@@ -2,9 +2,9 @@
 
 ## Descripción
 
-Este proyecto corresponde a la actividad de la Semana 3 de la materia Aprendizaje Automático de la Maestría en Inteligencia Artificial – UEES.
+Este proyecto corresponde a la actividad de las Semanas 2, 3 y 4 de la materia Aprendizaje Automático de la Maestría en Inteligencia Artificial – UEES.
 
-El objetivo del trabajo fue aplicar técnicas de aprendizaje no supervisado para segmentar perfiles estudiantiles utilizando modelos de clustering y reducción de dimensionalidad.
+El objetivo del trabajo fue aplicar técnicas de aprendizaje no supervisado para segmentar perfiles estudiantiles utilizando modelos de clustering y reducción de dimensionalidad, finalizando con técnicas de gobernanza de datos, eliminación de sesgo y explicabilidad del modelo.
 
 ---
 
@@ -24,14 +24,11 @@ Características:
 ## Técnicas aplicadas
 
 - Análisis exploratorio de datos (EDA)
-- Tratamiento de valores nulos
-- Transformación de variables categóricas
-- Normalización con StandardScaler
-- K-Means
-- DBSCAN
-- PCA
-- t-SNE
-- Silhouette Score
+- Tratamiento de valores nulos y escalado con StandardScaler
+- Modelado Supervisado (Regresión Lineal, Ridge, Decision Tree, Random Forest)
+- Modelado No Supervisado (K-Means, DBSCAN, PCA, t-SNE)
+- **Auditoría de Equidad (Fairlearn): Paridad Demográfica e Igualdad de Oportunidades**
+- **Explicabilidad del Modelo (XAI con SHAP y LIME): Impactos Globales y Locales**
 
 ---
 
@@ -40,5 +37,5 @@ Características:
 ```text
 data/           -> Dataset utilizado
 imageness/      -> Visualizaciones exportadas
-notebooks/      -> Notebook principal del análisis, para esta tarea es S3_Modelos_aprendizaje_no_supervisado.ipynb
+notebooks/      -> Notebooks principales del análisis S2 y S3, para esta tarea es S4_Gobernanza_XAI_y_Mitigacion_Sesgos.ipynb
 presentacion/   -> Presentación PowerPoint
